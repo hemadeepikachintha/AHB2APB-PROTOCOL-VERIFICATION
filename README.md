@@ -1,7 +1,6 @@
-# AHB2APB-PROTOCOL-VERIFICATION
-The AHB2APB protocol bridge connects the Advanced High Performance Bus with the Advanced Peripheral Bus ,two bus protocols within the ARM AMBA Architecture.This bridge facilitates communication between high speed components on the AHB and low power peripheral devices on the APB.
-
-
+# AHB2APB-Bridge-Verification
+Verify the correct translation of AHB (Advanced High-performance Bus) transactions to APB (Advanced Peripheral Bus) protocol signals and transactions.
+Key Components
 
 Full verification testbench
 Multiple test scenarios
@@ -9,6 +8,20 @@ Multiple test scenarios
 Coverage-driven verification
 
 SystemVerilog/UVM methodology
+
+
+Prerequisites
+
+Verification Tools:
+
+SystemVerilog simulator
+
+UVM 1.2 or later
+
+Coverage analysis tool
+
+
+
 Getting Started
 
 Clone the repository
@@ -36,3 +49,5 @@ Basic read/write transactions
 Burst transfers
 
 Error condition testing
+
+Performance validation
